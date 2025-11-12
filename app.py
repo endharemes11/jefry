@@ -14,7 +14,7 @@ st.title("🚀 Deteksi Objek dengan YOLOv8")
 st.write("✅ OpenCV version:", cv2.__version__)
 
 # ✅ Pastikan file model ada
-model_path = "best.pt"  # ubah sesuai nama file model kamu
+model_path = "best_safe.pt"  # ubah sesuai nama file model kamu
 if not os.path.exists(model_path):
     st.error(f"❌ Error: Model file tidak ditemukan di {model_path}")
 else:
